@@ -1,0 +1,11 @@
+header {
+    background-color: $black;
+}
+
+main {
+    background-color: $grey;
+    
+    @include desktop($breakpoint-desktop) {
+        background-color: red;
+    }
+}
